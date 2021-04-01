@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+
+.m-f {
+  font-family: "Aclonica", sans-serif;
+  text-transform: uppercase;
+}
+body {
+  background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  transition: background-color 0.5s ease;
+  z-index: 1;
+}
+.scrolling-active {
+  background-color: #fff;
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
+}
+.scrolling-active .nav-link::after {
+  background-color: #313131;
+}
+.nav-block {
+  display: block;
+  font-weight: bold;
+}
+.nav-block :hover {
+  color: red;
+  background-color: aliceblue;
+  border-bottom: 2px solid salmon;
+}
