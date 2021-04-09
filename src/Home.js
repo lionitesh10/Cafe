@@ -1,60 +1,40 @@
+import {Link} from 'react-router-dom';
+import UserReview from './userreviews';
+import './home.css';
 function Home(){
     return(
-        <div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <div className="container">
-            <div className="row">
-             <div className="col-sm-5">
-                    <h2>This is Home Page</h2>
-                </div>
-                <div className="col-sm-7">
-        <div
-        id="carouselExampleSlidesOnly"
-        className="carousel slide"
-        data-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              className="d-block w-100"
-              src="http://www.niteshkumarsapkota.com.np/restro/momo.png"
-              alt="First slide"
-              height="400px"
-              width="450px"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src="http://www.niteshkumarsapkota.com.np/restro/burgers.png"
-              alt="Second slide"
-              height="400px"
-              width="450px"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block w-100"
-              src="http://www.niteshkumarsapkota.com.np/restro/pizza2.png"
-              alt="Third slide"
-              height="400px"
-              width="450px"
-            />
-          </div>
+      <div>
+        <div className="container" style={{color:"white"}}>
+        <br /><br /><br /><br /><br /><br /><br />
+        <h2 className="text-center m-f">
+          Get the
+          <span className="makeyellow"> Best Foods</span>
+        </h2>
+        <br />
+        <p className="text-center" style={{fontSize: "larger"}}>
+          Find the Best Restaurants Around You. See Restaurants Menus. Post
+          Restaurants And Food Blogs And Vlogs And Get Yourself Featured On
+          Restromandu.
+        </p>
+        <br />
+        <h5 className="text-center m-f">
+          Your's <span className="makeyellow"><b>Restaurant Partner !!</b></span>
+        </h5>
+        <br /><br />
+        <div className="text-center">
+          <a href="#" class="btn btn-trans"><b>Explore !</b></a>
+          <a href="#" class="btn btn-fill">See Menu</a>
         </div>
       </div>
-        </div>
-        </div>
-        </div>
-        <br/>
-        <br/>
+      <br/>
+      <br/>
         <hr></hr>
-        <div>
+        <div style={{backgroundColor:"blueviolet",}}>
             <center>
-            <h2>Our Special Dishes </h2>
+              <br/>
+              <img src="https://burgerhousenepal.com/wp-content/uploads/2018/04/title-shape-white.png"/>
+            <h2><u>Our Special Dishes</u></h2>
+            <br/>
             </center>
             <div className="container">
             <div className="ml-4 mb-2 row">
@@ -94,8 +74,41 @@ function Home(){
                 </div>
             </div>
             </div>
-
+<br/>
+            <br/>
         </div>
+        </div>
+        <div className="container-fluid" style={{backgroundColor:"white"}}>
+          <br/>
+          <br/>
+              <center><h1>Get Your Moments Captured ! </h1><button className="btn btn-trans" style={{borderColor:"red"}}>Visit Us </button></center>
+              <br/>
+              <br/>
+
+              <div className="row">
+                <div className="column">
+                  <img src="https://www.holidify.com/images/cmsuploads/compressed/67650276_1541885352615705_8557314319681847296_o_20191219164152.jpg"/>
+                  <img src="https://www.holidify.com/images/cmsuploads/compressed/67650276_1541885352615705_8557314319681847296_o_20191219164152.jpg"/>
+                </div>
+                <div className="column">
+                  <img src="https://www.holidify.com/images/cmsuploads/compressed/67650276_1541885352615705_8557314319681847296_o_20191219164152.jpg"/>
+                  <img src="https://www.holidify.com/images/cmsuploads/compressed/67650276_1541885352615705_8557314319681847296_o_20191219164152.jpg"/>
+                 </div>
+                <div className="column">
+                  <img src="https://www.holidify.com/images/cmsuploads/compressed/67650276_1541885352615705_8557314319681847296_o_20191219164152.jpg"/>
+                  <img src="https://www.holidify.com/images/cmsuploads/compressed/67650276_1541885352615705_8557314319681847296_o_20191219164152.jpg"/>
+                </div>
+                <div className="column">
+                  <img src="https://www.holidify.com/images/cmsuploads/compressed/67650276_1541885352615705_8557314319681847296_o_20191219164152.jpg"/>
+                  <img src="https://www.holidify.com/images/cmsuploads/compressed/67650276_1541885352615705_8557314319681847296_o_20191219164152.jpg"/>
+                 </div>
+              </div>
+              <br/>
+              <br/>
+              <center>
+              <Link to="/Gallery"><h3>See More on Gallery ---- </h3></Link></center>
+              <br/>
+              <br/>
         </div>
         <br/>
         <br/>
@@ -110,30 +123,47 @@ function Home(){
         </div>
         <br/>
         <hr></hr>
+        
         <div className="container">
+          <br/>
+          <div style={{color:"white"}}>
+            <center><h1><b>What We Offer ?? </b></h1> <h5>The Kshitiz Cafe Nepal offers you following :: </h5></center>
           <div className="row">
             <div className="col">
               <br/>
               <br/>
-              <img className="rounded-circle" src="http://pngimg.com/uploads/email/email_PNG100742.png" height="100px" width="100px"></img>
-              <h3>Email</h3>
-              <h5>abcd@gmail.com</h5>
+              <center>
+              <img className="rounded-circle border border-warning" src="https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/istock_000020111414small.jpg" height="150px" width="150px"></img>
+              <h3>BREAKFAST</h3>
+              <h5>Unique menu items that we can offer quickly and consistently.</h5></center>
               </div>
               <div className="col">
                 <br/>
                 <br/>
-                <img className="rounded-circle" src="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/94-512.png" height="100px" width="100px"></img>
-               <h3>Location</h3> 
-               <h5>Chabhil , Kathmandu </h5>
+              <center><img className="rounded-circle border border-warning" src="https://i.ndtvimg.com/i/2016-06/chicken-drumstick_625x350_51466661689.jpg" height="150px" width="150px"></img>
+               <h3>LUNCH</h3> 
+               <h5>Our speciality is to serve quality food that is perfect for lunch.</h5>
+              </center>
               </div>
               <div className="col">
                 <br/>
                 <br/>
-                <img className="rounded-circle" src="https://pngimg.com/uploads/phone/phone_PNG48988.png" height="100px" width="100px"></img>
-               <h3>Phone no: </h3> 
-               <h5>9812345678 , 1234567891 </h5>
+              <center>
+              <img className="rounded-circle border border-warning" src="https://www.himalayastrek.com/wp-content/themes/hsmile/lib/timthumb.php?src=https://www.himalayastrek.com/wp-content/uploads/2019/08/Newari-food-taste-kathmandu.jpg" height="150px" width="150px"></img>
+              <h3>DINNER</h3> 
+              <h5>Gather round the dinner table and feed the family with these cuisine.</h5>
+              </center>
               </div>
           </div>
+          </div>
+        </div>
+        <br/>
+        <br/>
+        <hr></hr>
+        <div className="container-fluid" style={{backgroundColor:"whitesmoke"}}>
+          <br/>
+          <center><h2>Customer Reviews </h2></center>
+          {/* <UserReview/> */}
         </div>
         </div>
     )

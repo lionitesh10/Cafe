@@ -8,7 +8,7 @@ const Footer=()=>{
         <br/>
         <br/>
         <hr></hr>
-        <footer>
+        <footer style={{backgroundColor:"gray"}}>
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-4 text-center text-md-left">
